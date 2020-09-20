@@ -44,15 +44,21 @@
         </tr>
     </table>
 
-    <h2>What is This Website?</h2>
+    <h2>Adapt-NLP: The Second Workshop on Domain Adaptation for NLP</h2>
     <p>
-        This website is a template that you could use for a (small) academic conference. 
-        It&rsquo;s got a page for registration, where you can embed a Google Form or some other way for participants to register.
-        It&rsquo;s got a program page to list the schedule for the conference.
-        It&rsquo;s got a directions page to add a bunch of instructions how to get to the conference.
-        It&rsquo;s got a page to put up the flyers and other promotional materials for folks to download.
+        Recent growth in computational abilities and the rise of Deep Neural Networks (DNNs) have pushed the frontier
+        in Natural Language Processing (NLP) research. The ability to collect massive amounts of data with the capacity
+        to train large models on powerful GPUs, which are now widely accessible, has facilitated many NLP applications. 
+        However, many NLP algorithms rely on a fundamental assumption that the training and test sets follow the same underlying distribution. 
+        When these distributions do not match, we are facing aphenomenon known as domain shift, 
+        where such models are likely to encounter performance drops. 
+        Despite the growing capabilities of data collection, domain shifts are very common, 
+        since many NLP domains still lack a large quantity of labeled data to feed data-hungry neural models, 
+        and in some, even unlabeled data is scarce. As a result, the concept of domain adaptation, 
+        training an algorithmon annotated data from a source domain and applying it to other target domains, 
+        is a long standing research in NLP which aims to narrow the domain shift.
     </p>
-    <p>
+<!--     <p>
         You can use this template by cloning all the files from this
         <a target="_blank" href="https://github.com/mikepierce/conference-website-template">GitHub repo here</a>.
         This template was created from a website I made for 
@@ -63,29 +69,34 @@
         This paragraph is just some filler text to give the homepage some volume:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
     </p>
-
-    <h2>Organizers</h2>
+ -->
+    <h2>Workshop Goals</h2>
     <p>
-        Here&rsquo;s a good place to list the organizers and sponsors of the conference,
-        as well as list contact information for the organizers,
-        and show off the logos of the sponsors.
-        It looks like his conference was sponsored by kittens!
+        This workshop aims to bring together researchers and ideas in the broad spectrum of NLP research in domain adaptation,
+        zero-shot transfer learning and related setups where the data distribution differs between the train and test phases.
+We believe there is much to gain by organizing this workshop, gathering a forum to share insights and discuss issues that arecommon across them. 
+        We plan to focus on topics such as unsupervised and semi-supervised approaches to adaptation and transfer, 
+        as well as the similarities and differences between domain adaptation and cross-lingual learning. 
+        We would also like to explore the definitions of fundamental con-cepts such as the concepts of domain, 
+        transfer aswell as zero-shot and few-shot learning.
     </p>
+    
+    <h2>Invitec Speakers</h2>
     <table class="sponsors">
         <tr>
             <td class="sponsor">
                 <a href="http://www.eyebleach.me/">
-                    <img src="assets/kitten1.jpg" alt="First Sponsor Name">
+                    <img src="assets/HS.png" alt="Hinrich Schutze, University of Munich (LMU)">
                 </a>
             </td>
             <td class="sponsor">
                 <a href="http://www.eyebleach.me/">
-                    <img src="assets/kitten2.jpg" alt="Second Sponsor Name" style="width: 80%">
+                    <img src="assets/JE.jpeg" alt="Jacob Eisenstein, Google AI" style="width: 80%">
                 </a>
             </td>
             <td class="sponsor">
                 <a href="http://www.eyebleach.me/">
-                    <img src="assets/kitten3.jpg" alt="Third Sponsor Name">
+                    <img src="assets/IA.jpeg" alt="Isabelle Augenstein, University of Copen-hagen">
                 </a>
             </td>
         </tr>
@@ -93,8 +104,8 @@
 
     <table class="footer">
         <tr>
-            <td class="footer">Design by <a target="_blank" href="http://math.ucr.edu/~mpierce/">Mike Pierce</a></td> 
-            <td class="footer">&copy; Conference Organizers</td> 
+            <td class="footer">Design by <a target="_blank" href="https://eyalbd2.github.io/">Eyal Ben-David</a></td> 
+            <td class="footer">&copy; Eyal Ben-David & Guy Rotman</td> 
         </tr>
     </table>
 
