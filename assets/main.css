@@ -118,18 +118,13 @@ th,td{
 /* Conference Title Logo */
 .title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
 .title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
-.year{color: #505050; font-size:0.67em; font-weight: lighter;}
+.year{color: #505050; font-weight: lighter;} /* font-size:0.67em; */
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width:1008px; height: 23px; left: 216px; top: 252px;}
 /* td.navigation{font-size:1.65em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;} */
 td.navigation{font-size:20px; font-weight: bold; font-style: normal; font-family: Roboto; line-height: 23px; color: #5A729A; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 
-
-/* Sponsor Images */
-table.sponsors{width:800px;}
-td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
-td.sponsor img{width: 100%}
 
 /* The Table on the Program Page */
 td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
@@ -141,19 +136,25 @@ td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px}
 td.abstract img{display: block; margin: 4px auto 8px auto}
 table.plenary{padding-top: 8px; background: #ffffff;}
 
+
+/* Sponsor Images */
+/* table.sponsors{width:800px;}
+td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+td.sponsor img{width: 100%} */
+
 /* Registration and Directions iframes and Images */
-iframe.registration{display:block; margin:1em auto 2em auto; width:700px; height:1400px; border:none;}
+/* iframe.registration{display:block; margin:1em auto 2em auto; width:700px; height:1400px; border:none;}
 iframe.directions{display:block; margin:1em auto 2em auto; width:800px; height:400px; border:none;}
-img.center{display:block; width:67%; margin:1em auto 2em auto;}
+img.center{display:block; width:67%; margin:1em auto 2em auto;} */
 
 /* Flyer Images */
-table.flyers{width:800px;}
+/* table.flyers{width:800px;}
 td.flyer{white-space:nowrap; width:50%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
-td.sponsor img{width: 100%}
+td.sponsor img{width: 100%} */
 
 /* The Footer */
-table.footer{font-size:0.875em; margin: 72px auto 12px auto; width:333px;}
-td.footer{width:auto; text-align:center; vertical-align:middle;}
+/* table.footer{font-size:0.875em; margin: 72px auto 12px auto; width:333px;}
+td.footer{width:auto; text-align:center; vertical-align:middle;} */
 
 /* My hacky way of making the site mobile-friendly */
 @media only screen and (max-width: 1100px) {
