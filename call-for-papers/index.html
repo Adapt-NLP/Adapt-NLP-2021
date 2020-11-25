@@ -53,28 +53,42 @@
     <h3>Overview</h3>
     <p>
         The growth in computational power and the rise of Deep Neural Networks (DNNs) have revolutionized the field of Natural Language Processing (NLP). 
-        The ability to collect massive dataset with the capacity to train big models on powerful GPUs, has yielded NLP-based technology that was beyond 
-        imagination only a few years ago.
+        The ability to collect massive datasets with the capacity to train big models on powerful GPUs, 
+        has yielded NLP-based technology that was beyond imagination only a few years ago.
     </p>
     
     <p>
-        However, many NLP algorithms rely on the fundamental assumption that the training and the test sets follow the same underlying distribution. 
-        When these distributions do not match, a phenomenon known as domain shift, such models are likely to encounter performance drops. 
-        Despite the growing availability  of heterogeneous data, many NLP domains still lack the amounts of labeled data required to feed data-hungry 
-        neural models, and in some domains and languages even unlabeled data is scarce. As a result, the problem of domain adaptation, 
-        training an algorithm on annotated data from one or more source domain and  applying it to other target domains, is a fundamental NLP challenge.
+        Unfortunately, this technology is still limited to a handful of resource rich languages and domains. 
+        This is because most NLP algorithms rely on the fundamental assumption that the training and the test sets are drawn from the same underlying distribution.
+        When the train and test distributions do not match, a phenomenon known as domain shift, such models are likely to encounter performance drops.
     </p>
     
     <p>
-        The topics of the workshop include, but are not restricted to:
+        Despite the growing availability of heterogeneous data, many NLP domains still lack the amounts of labeled data required to feed data-hungry neural models,
+        and in some domains and languages even unlabeled data is scarce. 
+        As a result, the problem of domain adaptation, training an algorithm on annotated data from one or more source domains, 
+        and applying it to other target domains, 
+        is a fundamental challenge that has to be solved in order to make NLP technology available for most world languages and textual domains.
+    </p>
+    
+    <p>
+        Domain Adaptation (DA) is hence the focus of this workshop. 
+        Particularly, the topics of the workshop include, but are not restricted to:
                  
         <ul>
-            <li>Novel DA algorithms, for existing as well as new setups.</li> 
+            <li>Novel DA algorithms addressing existing and new assumptions (e.g. assuming or not assuming unlabeled data from the source and target domains,
+                making certain assumptions on the differences between the source and target domain distributions, etc.).</li> 
+            <li>ntroducing and exploring novel or under-explored DA setups, aiming towards realistic and applicable ones 
+                (e.g., one-to-many DA, many-to-many DA, DA when the target domain is unknown when training on the source domain, 
+                and source-free DA where just a source model is available but there is no access to source data).</li> 
             <li>Extending DA research to new domains and tasks through both novel datasets and algorithmic approaches.</li> 
-            <li>Proposing novel zero-shot and few-shot  algorithms and discussing their relevance for DA.</li> 
-            <li>Exploring the similarities and differences between algorithmic approaches to DA, cross-lingual and cross-task learning.</li> 
+            <li>Proposing novel zero-shot and few-shot algorithms and discussing their relevance for DA..</li>
+            <li>Exploring the similarities and differences between algorithmic approaches to DA, cross-lingual, and cross-task learning. </li> 
+            
             <li>A conceptual discussion of the definitions of fundamental concepts such as domain, transfer as well as zero-shot and few-shot learning.</li> 
-            <li>Introducing and exploring novel or under-explored DA setups, aiming towards realistic and applicable ones (e.g., one-to-many DA, many-to-many DA and DA when the target domain is unknown when training on the source domain).</li> 
+            <li>Novel approaches to evaluation of DA methods under different assumptions on data availability 
+                (e.g. evaluation without access to target domain labeled data and even with small amounts of target domain unlabeled data).</li>
+            <li>Thorough empirical comparisons of existing DA methods on existing and novel tasks, datasets, and setups.</li>
         </ul>
     </p>
     
@@ -89,27 +103,46 @@
     
         <h3>Submissions</h3> 
     <p>
-        We invite the submission of long and short papers on original and unpublished research in any topic related with 
-        the main workshop topics. Long papers may consist of up to 8 pages of content + references. 
-        Short papers may consist of up to 4 pages of content + references. 
-        Upon acceptance, both types of papers will be given one additional page of content. 
-        Authors are encouraged to use this additional page for addressing reviewers’ comments in the final version.
+        The workshop will have two tracks: archival and non-archival. 
+        Only archival papers will be included in the proceedings as archival publications. 
+        All submissions should be in PDF format, follow the official <a href="https://2021.eacl.org/calls/papers/">EACL 2021 style guidelines</a>, and be submitted via softconf, 
+        through the submission link provided below.
     </p>
     
     <p>
-        The workshop will have two tracks: archival and non-archival.  
-        The archival track is aimed for original and new contributions while the non-archival track is aimed for papers that have already been published, 
+        In the archival track, we invite the submission of long and short papers, 
+        describing original and unpublished research on topics related to the main workshop themes. 
+        Long papers may consist of up to 8 pages of content + references. Short papers may consist of up to 4 pages of content + references. 
+        Upon acceptance, both types of papers will be given one (1) additional page of content. 
+        Authors are encouraged to use this additional page for addressing reviewers’ comments in the final version. 
+    </p>
+    
+    <p>
+        In the non-archival track, we invite extended abstracts that may consist of up to 4 pages of content + references. 
+        Extended abstracts describe preliminary work or results that have already been published, 
         or work in progress that will be later submitted to archival venues. 
+        In this track we also allow the submission of papers that were published in top-tier venues over the last few years, 
+        in cases the authors believe that presenting these papers will contribute to the discussion at the workshop. 
+        Such papers can be submitted as a PDF file according to the format of the conference or journal in which they were originally published and 
+        papers should indicate this at submission time.
+    </p>
+    
+    <p>
         In both tracks, we welcome both empirical and theoretical papers, as well as opinion and discussion papers.
     </p>
     
-    <p>
-      Papers should follow the official EACL 2021 style guidelines and should be submitted via softconf. 
-        
-      
-      <br>Submission link: <a target="_blank" href="https://eyalbd2.github.io/">To be announced</a>. 
-        <!-- <a target="_blank" href="https://eyalbd2.github.io/">https://www.softconf.com/EACL/adapt-nlp-ws</a> -->
+    <h3>Presentations</h3> 
+    <p>        
+        Accepted papers will also be presented as posters or participate in a Q&A session. 
+        Both tracks will be asked to pre-record a talk describing their work and contributions, 
+        but papers in the non-archival track that have already been presented in another meeting will also get the opportunity to provide a 
+        link to their original talk.
+
     </p>
+    
+    <h3>Submission link</h3>
+    <a target="_blank" href="https://eyalbd2.github.io/">To be announced</a>. 
+    <!-- <a target="_blank" href="https://eyalbd2.github.io/">https://www.softconf.com/EACL/Adapt-NLP</a> -->
     
     <h3>Contact Email</h3>
     <a href = "mailto: adaptorganizers2021@gmail.com">adaptorganizers2021@gmail.com</a>
