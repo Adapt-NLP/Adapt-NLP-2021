@@ -66,11 +66,11 @@ body{
     width: 1000px;
 }
 
-a{color: #b8860b; text-decoration:none;}
-a.current{color: #52739e;}
-a.current:hover{color: #e82945;}
-a:hover{color: #b2132e;}
-a:active{color: #e82945;}
+a{color: #67696B; text-decoration:none;} /*grey*/
+a.current{color: #52739e;} /*blue*/
+a.current:hover{color: #e82945;} /*red*/
+a:hover{color: #b2132e;} /*red-dark*/
+a:active{color: #e82945;} /*red*/
 h1,h2,h3,h4{clear:left; color: #5A729A; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;} /* #5A729A */
 h1{font-size:2.67em;}
 h2{font-size:2.00em;}
